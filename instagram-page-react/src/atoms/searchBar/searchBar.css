@@ -1,0 +1,24 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+:root{
+
+    /*color codes*/
+    --light-grey: #FAFAFA;
+    --dark-grey: #A1A1A1;
+    --mild-grey: #DBDBDB;
+}
+
+.header-search-bar{
+    padding: .16rem;
+    background-color: var(--light-grey);
+    border: 0.1rem solid var(--mild-grey);
+    width: 23%;
+    height: 2rem;
+    border-radius: 0.33rem;
+    font-family: Arial, FontAwesome, serif;
+}
+
+.header-search-bar::placeholder{
+    text-align: center;
+    color: var(--dark-grey);
+}

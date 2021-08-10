@@ -1,0 +1,21 @@
+:root{
+
+    /*color codes*/
+    --light-grey: #FAFAFA;
+    --dark-grey: #A1A1A1;
+    --mild-grey: #DBDBDB;
+}
+
+.input-bar{
+    background: var(--light-grey);
+    margin-bottom: 0.8rem;
+    width: 26rem;
+    height: 3rem;
+    padding: 0.2rem 0.6rem;
+    border: 0.1rem solid var(--mild-grey);
+    border-radius: 0.1rem;
+}
+
+.input-bar::placeholder{
+    color: var(--dark-grey);
+}
