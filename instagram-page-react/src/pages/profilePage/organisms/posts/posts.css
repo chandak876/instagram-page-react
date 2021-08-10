@@ -1,8 +1,0 @@
-.posts{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding-top: 1.61rem;
-    max-width: 92.8rem;
-    margin: auto;
-    grid-gap: 1.2rem;
-}
