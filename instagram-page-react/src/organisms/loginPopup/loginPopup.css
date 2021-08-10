@@ -1,3 +1,12 @@
+:root{
+
+    /*color codes*/
+    --instagram-blue: #0595F6;
+    --facebook-blue: #395185;
+    --very-light-blue: #B3DFFC;
+    --mild-grey: #DBDBDB;
+    --mildish-grey: #8E8E8E
+}
 .login-popup{
     position: fixed;
     top: 0;
@@ -51,12 +60,6 @@
     color: gray;
     margin-left: 3rem;
     cursor: pointer;
-}
-
-.login-logo{
-    margin: 0.8rem 2.4rem 3rem 5rem;
-    height: 6rem;
-    width: 17rem;
 }
 
 .login-button{

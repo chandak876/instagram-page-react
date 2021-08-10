@@ -1,11 +1,16 @@
 import React from 'react';
+import { Provider } from "react-redux";
+
 import ProfilePage from '../pages/profilePage'
+import store from "./store";
 
 function App() {
   return (
-      <div>
-        <ProfilePage />
-      </div>
+      <Provider store={store}>
+          <div>
+            <ProfilePage />
+          </div>
+      </Provider>
   );
 }
 

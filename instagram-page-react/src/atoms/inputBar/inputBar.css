@@ -1,3 +1,11 @@
+:root{
+
+    /*color codes*/
+    --light-grey: #FAFAFA;
+    --dark-grey: #A1A1A1;
+    --mild-grey: #DBDBDB;
+}
+
 .input-bar{
     background: var(--light-grey);
     margin-bottom: 0.8rem;

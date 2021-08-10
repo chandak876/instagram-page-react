@@ -1,3 +1,3 @@
-import displayPost from "./displayPost";
+import DisplayPost from "./DisplayPost";
 
-export default displayPost;
+export default DisplayPost;
