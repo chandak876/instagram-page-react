@@ -1,0 +1,8 @@
+.header{
+    display: flex;
+    align-items: center;
+    place-content: space-between;
+    padding: 0.1% 25%;
+    background: white;
+    border-bottom: 0.1rem solid var(--mild-grey);
+}

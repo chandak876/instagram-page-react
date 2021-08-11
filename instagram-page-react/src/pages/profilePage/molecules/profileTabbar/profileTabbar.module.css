@@ -1,0 +1,8 @@
+.profileTabbar{
+    display: flex;
+    justify-content: center;
+    border-top: 0.1rem solid var(--mild-grey);
+    padding: 0 4.8rem;
+    max-width: 82rem;
+    margin: auto;
+}

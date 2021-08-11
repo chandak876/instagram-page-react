@@ -1,0 +1,14 @@
+.profile{
+    display: flex;
+    padding: 3.2rem 0;
+    justify-content: center;
+    font-size: 1.59rem;
+    margin: 0 auto 1.92rem auto;
+}
+
+.profilePicture{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    margin: 0 9.6rem 4rem 6rem;
+}
