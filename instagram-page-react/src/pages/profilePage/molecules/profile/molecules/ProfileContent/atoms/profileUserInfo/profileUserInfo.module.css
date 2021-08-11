@@ -1,0 +1,18 @@
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    line-height: 158%;
+}
+
+.userInfoHeading{
+    font-weight: 600;
+}
+
+.userInfoAccountLink{
+    color: var(--light-blue)
+}
+
+.userInfoExternalLink{
+    color: var(--dark-blue);
+    font-weight: bold;
+}

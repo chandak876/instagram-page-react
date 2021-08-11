@@ -1,0 +1,22 @@
+.actions{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 1.45rem;
+}
+
+.actionButton{
+    font-weight: 550;
+}
+
+.actionLogin{
+    margin-right: 1.4rem;
+    background: var(--instagram-blue);
+    color: white;
+    padding: .48rem 0.8rem 0.64rem 0.8rem;
+    border-radius: .45rem;
+}
+
+.actionSignup{
+    color: var(--instagram-blue);
+}

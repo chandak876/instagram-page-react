@@ -1,0 +1,13 @@
+.postInfo{
+    margin-right: 2rem;
+}
+
+.postInfo:last-child{
+    margin-right: 0;
+}
+
+.postInfoIcon{
+    margin-right: 0.2rem;
+    width: 2rem;
+    height: 2rem;
+}
