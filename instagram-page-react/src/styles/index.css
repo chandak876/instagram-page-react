@@ -1,2 +1,6 @@
 @import "colors.css";
 @import "utils.css";
+
+#root{
+    height: 100vh;
+}

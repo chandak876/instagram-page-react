@@ -7,11 +7,11 @@ import './profilePage.css'
 import Header from '../../molecules/header'
 import Profile from './molecules/profile'
 import ProfileTabbar from './molecules/profileTabbar'
-import Posts from './molecules/posts'
+import Posts from './organisms/posts'
 
 function ProfilePage() {
     return (
-        <div>
+        <div className="full-height">
             {/*Header section*/}
             <Header/>
 
