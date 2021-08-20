@@ -1,5 +1,5 @@
 import React from 'react';
-// rename?
+
 // Styles
 import styles from './profileUserDescription.module.css'
 

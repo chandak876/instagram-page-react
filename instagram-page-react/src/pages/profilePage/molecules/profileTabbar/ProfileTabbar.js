@@ -17,7 +17,7 @@ function ProfileTabbar() {
 
     const handleProfileTabbarClick = useCallback((tabID) => {
         setSelectedTabId(tabID);
-    }, [])
+    }, [setSelectedTabId])
 
     const renderProfileTabbar = (tab) => {
         const{

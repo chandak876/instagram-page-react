@@ -21,7 +21,7 @@ const renderPostInfo = (infoAction) => {
     return <PostInfo
         key = {id}
         imageSrc = {imageSrc}
-        iconCount = {count}
+        count = {count}
         alttext = {altText}
     />
 }
