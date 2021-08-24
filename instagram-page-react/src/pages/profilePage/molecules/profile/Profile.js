@@ -3,8 +3,8 @@ import React from 'react';
 // Styles
 import styles from './profile.module.css'
 
-//components
-import ProfileContent from "./molecules/ProfileContent";
+// Components
+import ProfileContent from "./molecules/profileContent";
 
 function Profile() {
     return (
