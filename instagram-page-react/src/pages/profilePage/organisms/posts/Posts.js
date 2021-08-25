@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from 'react';
-import {connect} from "react-redux";
+import React, { useState, useEffect } from 'react';
+import { connect } from "react-redux";
 import PropTypes from 'prop-types';
 
 // lodash
@@ -14,13 +14,12 @@ import Loader from "../../../../atoms/loader";
 import Post from "./molecules/post";
 
 // selectors
-import { getPosts } from "../../reducers/selectors/profilePage.posts";
+import { getReversedPosts } from "../../reducers/selectors/profilePage.posts";
 
 // actionCreators
 import {
     fetchPosts as fetchPostsAction
 } from "../../actions/profilePage.posts";
-
 
 const renderPost = (post) => {
     const{
@@ -59,7 +58,7 @@ function Posts(props) {
 }
 
 const mapStateToProps = (state) => ({
-    posts: getPosts(state),
+    posts: getReversedPosts(state),
 });
 
 const mapDispatchToProps = {
