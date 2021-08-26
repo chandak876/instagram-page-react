@@ -4,17 +4,13 @@ import React from 'react';
 import './profilePage.css'
 
 // Components
-import Header from '../../molecules/header'
 import Profile from './molecules/profile'
 import ProfileTabbar from './molecules/profileTabbar'
 import Posts from './organisms/posts'
 
 function ProfilePage() {
     return (
-        <div className="full-height">
-            {/*Header section*/}
-            <Header/>
-
+        <div>
             {/*Profile section containing info about the user*/}
             <Profile/>
 
